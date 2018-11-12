@@ -1,2 +1,2 @@
 # FirstStepsNN
-This respository contains the codes related to neuronal network implementations. 
+This respository contains the codes related to neural network implementations. 
