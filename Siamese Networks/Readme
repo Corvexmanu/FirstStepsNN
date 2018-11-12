@@ -1,0 +1,15 @@
+Required tasks and experiments
+• Load the MNIST dataset (use keras.datasets.mnist.load_data).
+• Split the dataset such that
+◦ the digits in [2,3,4,5,6,7] are used for training and testing
+◦ the digits in [0,1,8,9] are only used for testing. None of these digits should be used
+during training.
+• Implement and test the contrastive loss function described earlier in this document.
+• Build a Siamese network.
+• Train your Siamese network on your training set. Plot the training and validation error vs
+time.
+• Evaluate the generalization capability of your network by
+◦ testing it with pairs from [2,3,4,5,6,7] x [2,3,4,5,6,7]
+◦ testing it with pairs from [2,3,4,5,6,7] x [0,1,8,9]
+◦ testing it with pairs from [0,1,8,9] x [0,1,8,9]
+• Present your results in tables and figures.
